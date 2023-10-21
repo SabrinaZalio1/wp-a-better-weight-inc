@@ -9,10 +9,18 @@
      * Resolve aliases
      */
     "paths": {
-      "@fonts/*": ["fonts/*"],
-      "@images/*": ["images/*"],
-      "@scripts/*": ["scripts/*"],
-      "@styles/*": ["styles/*"]
+      "@fonts/*": [
+        "fonts/*"
+      ],
+      "@images/*": [
+        "images/*"
+      ],
+      "@scripts/*": [
+        "scripts/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ]
     },
     /**
      * Type definitions
@@ -28,7 +36,15 @@
       "@roots/sage"
     ]
   },
-  "files": ["bud.config.js"],
-  "include": ["resources"],
-  "exclude": ["node_modules", "public"]
+  "files": [
+    "bud.config.js"
+  ],
+  "include": [
+    "resources",
+    "public/js/main.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "public"
+  ]
 }
